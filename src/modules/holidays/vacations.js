@@ -3,20 +3,26 @@ import { convertDate } from "../functions"
 const vacations = [
   {
     name: "fall",
-    startDate: "2024-10-28",
-    endDate: "2024-11-03",
+    startDate: "2026-10-26",
+    endDate: "2026-11-01",
     dates: [],
   },
   {
     name: "winter",
-    startDate: "2024-12-30",
-    endDate: "2025-01-12",
+    startDate: "2026-12-24",
+    endDate: "2027-01-10",
+    dates: [],
+  },
+  {
+    name: "additional",
+    startDate: "2027-02-15",
+    endDate: "2027-02-21",
     dates: [],
   },
   {
     name: "spring",
-    startDate: "2025-03-24",
-    endDate: "2025-03-30",
+    startDate: "2027-03-22",
+    endDate: "2027-03-28",
     dates: [],
   },
 ]
@@ -47,6 +53,7 @@ const createArrayDates = (vacationName) => {
 
 createArrayDates("fall")
 createArrayDates("winter")
+createArrayDates("additional")
 createArrayDates("spring")
 
 //Формирование массива дат всех каникул
